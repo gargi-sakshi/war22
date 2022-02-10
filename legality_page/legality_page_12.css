@@ -1,0 +1,23 @@
+
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+.legality_page_11 .heading-color-sec {
+    color: hsl(var(--color-secondary-dark));
+}
+
+
+.legality-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.legality-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.legality-title h2::before, .legality-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}

@@ -1,0 +1,18 @@
+
+.about_section_12 {
+    padding: 60px 0;
+}
+
+.about_section_12 h2 {
+    color: hsl(var(--color-primary));
+}
+
+.about_section_12 .header-btn {
+  border: 2px solid hsl(var(--color-primary) / 100% );
+  transition: all .5s ease-out !important;
+  box-shadow: 0 10px 30px 0 hsl(var(--color-black) / 20% );
+}
+.about_section_12 .header-btn:hover{
+	background: hsl(var(--color-primary) / 100% )!important;
+	color: hsl(var(--color-white));
+}

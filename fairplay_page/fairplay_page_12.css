@@ -1,0 +1,24 @@
+
+
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+.fairplay_page_12 .heading-color-sec {
+    color: hsl(var(--color-priamry));
+}
+
+
+
+.fair-play-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.fair-play-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.fair-play-title h2::before, .fair-play-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background:hsl(var(--color-primary));
+    display: inline-block;
+}

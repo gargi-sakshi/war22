@@ -1,0 +1,23 @@
+
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+.privacy_policy_page_12 .heading-privacy-policy {
+    color: hsl(var(--color-primary));
+}
+
+.privacy-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.privacy-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.privacy-title h2::before, .privacy-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: hsl(var(--color-secondary));
+    display: inline-block;
+}
+

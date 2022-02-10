@@ -1,0 +1,54 @@
+
+main.inner_pages_custom {
+    padding: 60PX 0;
+}
+
+
+.how_to_play_page_12 h2, span {
+    color: hsl(var(--color-primary));
+}
+
+
+.how_to_play_page_12 .card-avatar {
+    padding: 50px 0 15px;
+    background: hsl(var(--color-primary));
+    padding-bottom: 50px;
+    border: 1px solid transparent;
+}
+
+.how_to_play_page_12 .card-avatar a i{
+ color: hsl(var(--color-white));
+ font-size: 40px;
+}
+.how_to_play_page_12 .card.card-bottom-border {
+    border-top: 6px solid #771341;
+    transition: 0.05s;
+}
+
+.how_to_play_page_12 .card.card-bottom-border:hover {
+    transform: rotateX(30deg);
+}
+
+.how_to_play_page_12 .card.card-top-border {
+    border-bottom: 6px solid #771341;
+    transition: 0.05s;
+}
+
+.how_to_play_page_12 .card.card-top-border:hover {
+    transform: rotate3d(30deg);
+}
+
+
+.how-play-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.how-play-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.how-play-title h2::before, .how-play-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background:hsl(var(--color-secondary));
+    display: inline-block;
+}

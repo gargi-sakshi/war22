@@ -1,0 +1,37 @@
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+.contact_page_12 .heading-contact-page {
+    color: hsl(var(--color-primary));
+}
+
+.contact-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.contact-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.contact-title h2::before, .contact-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: hsl(var(--color-secondary));
+    display: inline-block;
+}
+
+.contact_page_12 form {
+    padding: 65px 50px;
+    border-radius: 25px;
+}
+
+.contact_page_12 .header-btn {
+    border: 2px solid hsl(var(--color-primary) / 100% );
+    transition: all .5s ease-out !important;
+    box-shadow: 0 10px 30px 0 hsl(var(--color-black) / 20% );
+  }
+  .contact_page_12 .header-btn:hover{
+      background: hsl(var(--color-primary) / 100% )!important;
+      color: hsl(var(--color-white));
+  }
+
